@@ -15,28 +15,26 @@ Simple application that queries various game data from Bungie's API.
 
 4. Create an '.env' file like the code below and save in the cloned repo from last step. 
     ```
-    CLIENT\_\ID = *enter your CLIENT\_\ID*
-    CLIENT\_\SECRET = *enter your CLIENT\_\SECRET*
-    API\_\KEY = *enter your API\_\KEY*
+    CLIENT_ID = 'enter your CLIENT_ID'
+    CLIENT_SECRET = 'enter your CLIENT_SECRET'
+    API_KEY = 'enter your API_KEY'
     ```
 
     >_Note: the purpose of creating and using this .env file is to protect sensitive information like the user's client id, client secret, and api key. The d2-api-app.py script will pull these values from the .env file without giving away sensitive info. The user doesn't have to worry about accidentally publishing their api key to a public GitHub repo. The .gitignore file instructs GitHub to exclude this file from publishing to the repo._
 
 5. Setup the working environment:
-    
     **For anaconda distributions:**
 
-        ```python
+        ```
         conda create -n d2env python:3.9 anaconda
         conda activate d2env
         conda install -c anaconda d2env
         ```
-
     **For python3:**
 
-        ```python
+        ```
         python3 -m venv d2env
-        source d2env\/\bin\/\activate
+        source d2env/bin/activate
         pip3 install requests requests-oauthlib python-dotenv
         ```
 
@@ -54,6 +52,6 @@ Simple application that queries various game data from Bungie's API.
 
 
 ## How to use:
- _COMMING SOON..._
+ _Coming soon..._
 
 
