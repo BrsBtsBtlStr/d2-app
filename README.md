@@ -20,7 +20,7 @@ Simple application that queries various game data from Bungie's API.
     API_KEY = 'enter your API_KEY'
     ```
 
-    >*__Note:__ the purpose of creating and using this .env file is to protect sensitive information like the user's client id, client secret, and api key. The d2-api-app.py script will pull these values from the .env file without giving away sensitive info. The user doesn't have to worry about accidentally publishing their api key to a public GitHub repo. The .gitignore file instructs GitHub to exclude this file from publishing to the repo.*
+    >*__Note: the purpose of creating and using this .env file is to protect sensitive information like the user's client id, client secret, and api key. The d2-api-app.py script will pull these values from the .env file without giving away sensitive info. The user doesn't have to worry about accidentally publishing their api key to a public GitHub repo. The .gitignore file instructs GitHub to exclude this file from publishing to the repo.__*
 
 5. Setup the working environment
     
