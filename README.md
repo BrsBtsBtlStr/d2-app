@@ -25,24 +25,23 @@ Simple application that queries various game data from Bungie's API.
 5. Setup the working environment:
     **For anaconda distributions:**
 
-        ```
-        conda create -n d2env python:3.9 anaconda
-        conda activate d2env
-        conda install -c anaconda d2env
-        ```
+    ```
+    conda create -n d2env python:3.9 anaconda
+    conda activate d2env
+    conda install -c anaconda d2env
+    ```
     **For python3:**
 
-        ```
-        python3 -m venv d2env
-        source d2env/bin/activate
-        pip3 install requests requests-oauthlib python-dotenv
-        ```
+    ```
+    python3 -m venv d2env
+    source d2env/bin/activate
+    pip3 install requests requests-oauthlib python-dotenv
+    ```
 
 6. Now run the program: 
     >d2-api-app.py
 
 ## Roadmap:
-
 - [x] Custom redirect webpage created
 - [x] API connection established
 - [ ] API endpoints identified
@@ -50,8 +49,5 @@ Simple application that queries various game data from Bungie's API.
 - [ ] Armor picker
 - [ ] Build creator
 
-
 ## How to use:
  _Coming soon..._
-
-
