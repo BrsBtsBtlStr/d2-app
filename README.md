@@ -5,7 +5,7 @@ Simple application that queries various game data from Bungie's API.
 1. Create and register your new application by navigating to https://www.bungie.net/en/Application
     > *OAuth Client Type = "Confidential"*
 
-2. Copy and save down the follwing credentials/endpoints from the *app details page*
+2. Copy and save down the follwing credentials/endpoints from the __*app details page*__
     * API Key
     * Client Id
     * Client Secret
@@ -13,14 +13,14 @@ Simple application that queries various game data from Bungie's API.
 
 3. Clone git repo: https://github.com/BrsBtsBtlStr/d2-app
 
-4. Create an *.env* file like the code below and save in the cloned repo from last step
+4. Create an __*.env*__ file like the code below and save in the cloned repo from last step
     ```
     CLIENT_ID = 'enter your CLIENT_ID'
     CLIENT_SECRET = 'enter your CLIENT_SECRET'
     API_KEY = 'enter your API_KEY'
     ```
 
-    >_Note: the purpose of creating and using this .env file is to protect sensitive information like the user's client id, client secret, and api key. The d2-api-app.py script will pull these values from the .env file without giving away sensitive info. The user doesn't have to worry about accidentally publishing their api key to a public GitHub repo. The .gitignore file instructs GitHub to exclude this file from publishing to the repo._
+    >*__Note:__ the purpose of creating and using this .env file is to protect sensitive information like the user's client id, client secret, and api key. The d2-api-app.py script will pull these values from the .env file without giving away sensitive info. The user doesn't have to worry about accidentally publishing their api key to a public GitHub repo. The .gitignore file instructs GitHub to exclude this file from publishing to the repo.*
 
 5. Setup the working environment
     
